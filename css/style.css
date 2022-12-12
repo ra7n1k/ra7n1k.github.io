@@ -3,14 +3,19 @@ body {
 
     margin: 0;
 }
+body img {
+    vertical-align: bottom;
+}
 div#cover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    box-sizing: border-box;
+    width: 100vw;
     height: 100vh;
     background-image: url('../img/cover.png');
     background-size: cover;
+    background-position: center;
 }
 div#cover section {
     text-align: center;
@@ -110,10 +115,13 @@ main dl dd {
 }
 main section#members > div {
     display: flex;
-    gap: 64px;
+    gap: 48px;
 }
 main section#members div div dl {
     margin-top: 0;
+}
+main section#members div div {
+    width: 256px;
 }
 main section#members div div img {
     width: 256px;
