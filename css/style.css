@@ -24,7 +24,6 @@ div#cover section * {
     color: #fff;
 
     display: inline-block;
-    z-index: 10;
 }
 div#cover section h1 {
     font-size: 48px;
