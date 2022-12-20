@@ -1,0 +1,8 @@
+main section#rules ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+main dl dd {
+    margin-left: 24px;
+}
