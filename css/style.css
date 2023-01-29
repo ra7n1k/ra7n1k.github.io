@@ -112,3 +112,14 @@ main section#links ul * {
     font-family: 'Times New Roman', Times, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, serif;
     font-size: 20px;
 }
+main table {
+    background-color: #f8f8f8;
+    border-collapse: collapse;
+}
+main table tr * {
+    padding: 8px 32px;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+
+    text-align: center;
+}
