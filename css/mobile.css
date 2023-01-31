@@ -8,3 +8,9 @@ main section#members div div img {
     width: calc(37.5vw - 16px);
     height: calc(37.5vw - 16px);
 }
+main table {
+    width: 100%;
+}
+main table tr * {
+    padding: 8px 0;
+}

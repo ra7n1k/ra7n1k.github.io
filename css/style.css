@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Gothic ProN", "Hiragino Gothic Pro", HGSゴシックE, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
 
     margin: 0;
 }
@@ -45,12 +45,12 @@ main h1 {
     text-align: center;
 }
 main h2, main section#terms details summary {
-    font-family: Arial, Helvetica, 游ゴシック, "Yu Gothic", YuGothic, "Hiragino Gothic ProN", "Hiragino Gothic Pro", HGSゴシックE, sans-serif;
+    font-family: Arial, Helvetica, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
 main p, main section#terms details, li {
-    font-family: 'Times New Roman', Times, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, serif;
+    font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     font-size: 20px;
 }
 main section#terms details summary {
@@ -78,7 +78,7 @@ main hr {
     border: 0;
 }
 main dl * {
-    font-family: 'Times New Roman', Times, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, serif;
+    font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     font-size: 20px;
 }
 main dl dt::after {
@@ -109,6 +109,17 @@ main section#links ul {
     gap: 24px;
 }
 main section#links ul * {
-    font-family: 'Times New Roman', Times, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, serif;
+    font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     font-size: 20px;
+}
+main table {
+    background-color: #f8f8f8;
+    border-collapse: collapse;
+}
+main table tr * {
+    padding: 8px 32px;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+
+    text-align: center;
 }
