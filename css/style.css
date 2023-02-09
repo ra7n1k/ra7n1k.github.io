@@ -9,6 +9,7 @@ body img {
 header {
     background: #202020ff;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -54,21 +55,31 @@ main p, main section#terms details, li {
     font-size: 20px;
 }
 main section#terms details summary {
-    background-image: url('../img/icons/open.svg');
-    background-repeat: no-repeat;
-    background-size: 32px;
-    background-position: center right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin: 16px 0;
 
     list-style: none;
-
-    user-select: none;
     cursor: pointer;
+}
+main section#terms details summary span img {
+    transition: .3s;
+}
+main section#terms details summary span img {
+    width: 32px;
+    height: 32px;
+}
+main section#terms details[open] summary span img {
+    transform: rotate(180deg);
 }
 main section#terms details ol {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    
+    overflow: hidden;
 }
 main hr {
     width: 100%;
@@ -89,6 +100,7 @@ main dl dd {
 }
 main section#members > div {
     display: flex;
+    flex-direction: row;
     gap: 48px;
 }
 main section#members div div dl {
