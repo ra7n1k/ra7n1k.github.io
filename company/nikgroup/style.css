@@ -30,7 +30,7 @@ body > #cover {
     box-sizing: border-box;
     width: 100%;
     height: calc(100vh - 64px);
-    background-image: url('./img/cover.png');
+    background-image: url('./img/cover.webp');
     background-size: cover;
     background-position: center;
 }
