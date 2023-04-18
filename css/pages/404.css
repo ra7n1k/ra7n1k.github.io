@@ -20,9 +20,13 @@ div#cover section * {
     display: inline-block;
 }
 div#cover section h1 {
-    font-size: 96px;
+    font-size: 48px;
+    font-weight: 500;
     
     margin-bottom: 0;
+}
+div#cover section h1 span {
+    font-weight: bold;
 }
 div#cover section h2 {
     font-weight: normal;
