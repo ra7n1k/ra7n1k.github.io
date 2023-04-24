@@ -1,7 +1,7 @@
-#rules ul {
+ul, dl {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
 }
 main dt, main dd {
     font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
