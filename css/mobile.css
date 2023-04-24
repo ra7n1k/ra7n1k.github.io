@@ -1,10 +1,10 @@
-main section#members > div {
+main #members > div {
     gap: 32px;
 }
-main section#members div div {
+main #members div div {
     width: calc(37.5vw - 16px);
 }
-main section#members div div img {
+main #members div div img {
     width: calc(37.5vw - 16px);
     height: calc(37.5vw - 16px);
 }

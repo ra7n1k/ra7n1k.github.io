@@ -1,8 +1,17 @@
-main section#rules ul {
+#rules ul {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
+main dl {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+main dl dt {
+    font-family: Arial, Helvetica, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
+    font-weight: bold;
+}
 main dl dd {
-    margin-left: 24px;
+    margin-left: 20px;
 }

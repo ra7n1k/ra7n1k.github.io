@@ -34,7 +34,7 @@ main {
     width: 75%;
     margin: 112px auto 32px;
 }
-main section {
+main {
     margin-bottom: 32px;
 }
 main img {
@@ -45,16 +45,16 @@ main h1 {
     font-size: 28px;
     text-align: center;
 }
-main h2, main section#terms details summary {
+main h2, main details summary {
     font-family: Arial, Helvetica, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
-main p, main section#terms details, li {
+main p, main details, main li {
     font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     font-size: 20px;
 }
-main section#terms details summary {
+main details summary {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,17 +64,17 @@ main section#terms details summary {
     list-style: none;
     cursor: pointer;
 }
-main section#terms details summary span img {
+main details summary span img {
     transition: .3s;
 }
-main section#terms details summary span img {
+main details summary span img {
     width: 32px;
     height: 32px;
 }
-main section#terms details[open] summary span img {
+main details[open] summary span img {
     transform: rotate(180deg);
 }
-main section#terms details ol {
+main details ol {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -92,37 +92,8 @@ main dl * {
     font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     font-size: 20px;
 }
-main dl dt::after {
-    content: ':';
-}
 main dl dd {
     margin-left: 0;
-}
-main section#members > div {
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-}
-main section#members div div dl {
-    margin-top: 0;
-}
-main section#members div div {
-    width: 256px;
-}
-main section#members div div img {
-    width: 256px;
-    height: 256px;
-    object-fit: cover;
-    vertical-align: bottom;
-}
-main section#links ul {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-main section#links ul * {
-    font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
-    font-size: 20px;
 }
 main table {
     background-color: #f8f8f8;
