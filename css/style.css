@@ -45,6 +45,9 @@ main h1 {
     font-size: 28px;
     text-align: center;
 }
+main .disabled {
+    pointer-events: none;
+}
 main h2, main details summary {
     font-family: Arial, Helvetica, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
     font-size: 24px;
