@@ -81,8 +81,6 @@ main h2, main details summary {
     font-family: var(--label-font);
     font-size: 24px;
     font-weight: bold;
-
-    user-select: none;
 }
 main p, main details, main li {
     font-family: var(--p-font);
@@ -97,6 +95,7 @@ main details summary {
 
     list-style: none;
     cursor: pointer;
+    user-select: none;
 }
 main details summary span img {
     transition: .3s;
