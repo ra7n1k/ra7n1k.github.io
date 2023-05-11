@@ -139,6 +139,9 @@ main table tr * {
 
     text-align: center;
 }
+main td {
+    font-family: var(--p-font);
+}
 main dfn {
     font-style: normal;
 }
