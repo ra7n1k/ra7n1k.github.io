@@ -30,6 +30,9 @@ header {
     width: 100%;
     padding: 16px 32px 16px 16px;
 }
+header img {
+    user-select: none;
+}
 header nav {
     display: flex;
     gap: 24px;
@@ -78,6 +81,8 @@ main h2, main details summary {
     font-family: var(--label-font);
     font-size: 24px;
     font-weight: bold;
+
+    user-select: none;
 }
 main p, main details, main li {
     font-family: var(--p-font);
