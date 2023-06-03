@@ -10,6 +10,9 @@
     --a-hover-color: #2060b0;
     --a-active-color: #2050a0;
 }
+html {
+    background-color: #fff;
+}
 body {
     font-family: var(--h-font);
 
