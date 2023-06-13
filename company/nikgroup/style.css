@@ -53,16 +53,23 @@ body main p {
     font-family: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     font-size: 20px;
 }
+body main .table {
+    overflow-x: scroll;
+}
 body main table {
     background-color: #f8f8f8;
     border-collapse: collapse;
-    margin: 48px 0;
+    width: 100%;
+    margin: 0;
 }
 body main table tr *:not(span) {
     padding: 8px 32px;
     border-left: 1px solid #c0c0c0;
     border-right: 1px solid #c0c0c0;
     text-align: center;
+}
+body main table tr td:nth-of-type(even) {
+    min-width: 192px;
 }
 body main section {
     max-width: 1080px;
