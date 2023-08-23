@@ -3,9 +3,12 @@
     flex-direction: column;
     gap: 0;
 }
+#copy > * {
+    width: 100%;
+}
 #copy h1 {
     font-size: 32px;
 }
-#copy > * {
-    width: 100%;
+#copy picture * {
+    width: 100%
 }
