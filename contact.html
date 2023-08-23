@@ -4,42 +4,37 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>コンタクト - Nik29</title>
+        <link rel="shortcut icon" href="./img/logos/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <header>
             <a id="logo" href="./" aria-label="ホーム"><img src="./img/logos/header.svg" alt=""></a>
-            <button id="menu" aria-label="メニュー"><img src="./img/icons/menu.svg" width="24" height="24" alt=""></button>
+            <section>
+                <a href="./products">製品</a>
+                <a href="./contact">コンタクト</a>
+            </section>
         </header>
-        <div id="wrapper">
-            <aside id="sidebar">
-                <section>
-                    <a href="./">ホーム</a>
-                    <a href="./products">製品</a>
-                    <a href="./contact">コンタクト</a>
-                </section>
-            </aside>
-            <main>
-                <section id="content">
-                    <h1>コンタクト</h1>
-                    <p>何か気になることがありますか? このフォームから問い合わせできます。</p>
-                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdXtSNnicbs_rzV3T4sTHaWiAIA4DTP2c6duMsBp5wbTcXDFw/formResponse" id="form" target="hidden">
-                        <fieldset>
-                            <legend class="required">サブジェクト</legend>
-                            <label><input type="radio" name="entry.991380126" value="製品に関する問い合わせ" required>製品に関する問い合わせ</label>
-                            <label><input type="radio" name="entry.991380126" value="私に関する問い合わせ">私に関する問い合わせ</label>
-                            <label><input type="radio" name="entry.991380126" value="ウェブサイトへのフィードバック">ウェブサイトへのフィードバック</label>
-                        </fieldset>
-                        <div><label for="name">名前</label><input name="entry.1463069924" id="name" type="text"></div>
-                        <div><label class="required" for="email">メールアドレス</label><input name="entry.2062037199" id="email" type="email" required></div>
-                        <div><label class="required" for="title">タイトル</label><input name="entry.57225507" id="title" type="text" required></div>
-                        <div><label class="required" for="text">本文</label><textarea name="entry.1799036892" id="text" cols="100%" rows="6" required></textarea></div>
-                        <button class="button" type="submit">送信</button>
-                    </form>
-                    <iframe src="" name="hidden" frameborder="0"></iframe>
-                </section>
-            </main>
-        </div>
+        <main>
+            <section id="content">
+                <h1>コンタクト</h1>
+                <p>何か気になることがありますか? このフォームから問い合わせできます。</p>
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdXtSNnicbs_rzV3T4sTHaWiAIA4DTP2c6duMsBp5wbTcXDFw/formResponse" id="form" target="hidden">
+                    <fieldset>
+                        <legend class="required">サブジェクト</legend>
+                        <label><input type="radio" name="entry.991380126" value="製品に関する問い合わせ" required>製品に関する問い合わせ</label>
+                        <label><input type="radio" name="entry.991380126" value="私に関する問い合わせ">私に関する問い合わせ</label>
+                        <label><input type="radio" name="entry.991380126" value="ウェブサイトへのフィードバック">ウェブサイトへのフィードバック</label>
+                    </fieldset>
+                    <div><label for="name">名前</label><input name="entry.1463069924" id="name" type="text"></div>
+                    <div><label class="required" for="email">メールアドレス</label><input name="entry.2062037199" id="email" type="email" required></div>
+                    <div><label class="required" for="title">タイトル</label><input name="entry.57225507" id="title" type="text" required></div>
+                    <div><label class="required" for="text">本文</label><textarea name="entry.1799036892" id="text" cols="100%" rows="6" required></textarea></div>
+                    <button class="button" type="submit">送信</button>
+                </form>
+                <iframe src="" name="hidden" frameborder="0"></iframe>
+            </section>
+        </main>
         <script src="./js/script.js"></script>
         <script src="./js/pages/contact.js"></script>
     </body>
