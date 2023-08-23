@@ -177,6 +177,8 @@ main fieldset {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 6px;
 }
 main label {
     padding-left: 22px;
@@ -203,17 +205,28 @@ main label {
     object-fit: cover;
 }
 .required::after {
-    color: #c04030;
+    color: #e03020;
 
     content: "*";
 }
 main input[type="text"], main input[type="email"], main textarea {
     font-family: var(--hlp-font);
-    font-size: 20px;
+    color: #000;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 8px 10px;
 
-    padding: 8px;
-
+    outline: none;
     resize: none;
+}
+main input[type="text"]:hover, main input[type="email"]:hover, main textarea:hover {
+    background-color: #f0f0f0;
+}
+main input[type="text"]:focus, main input[type="email"]:focus, main textarea:focus {
+    background-color: #fff;
+    border-color: #e0e0e0;
 }
 iframe[name="hidden"] {
     display: none;
