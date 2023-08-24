@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ page.title }}</title>
+        <link rel="shortcut icon" href="./img/logos/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/style.css" media="all">
+        <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 1000px)">
+    </head>
+    <body>
+        <header>
+            <a href="./" aria-label="ホーム"><img src="./img/logos/header.svg" alt="" width="48" height="48"></a>
+            <nav>
+                <a href="./rules">ルール</a>
+                <a href="./beginning">はじめに</a>
+                <a href="./guide">ご案内</a>
+            </nav>
+        </header>
+        <main>
+            <h1>{{ page.title }}</h1>
+            <section>
+                {{ content }}
+            </section>
+        </main>
+    </body>
+</html>
