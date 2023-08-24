@@ -28,7 +28,7 @@ twitter_username: Ra7n1k
 github_username:  ra7n1k
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
