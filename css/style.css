@@ -51,7 +51,7 @@ header {
 header section {
     display: inline-flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 16px;
 }
 header section * {
     color: #505050;
