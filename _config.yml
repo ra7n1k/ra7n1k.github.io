@@ -28,10 +28,11 @@ twitter_username: Ra7n1k
 github_username:  ra7n1k
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
