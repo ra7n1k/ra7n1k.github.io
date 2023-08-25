@@ -58,4 +58,4 @@ deception: サーバーでの資源や建築、ソーシャルに関するルー
 - 運営は原則として個人間のトラブルに介入しない
 - チャンネルには画像ファイルのみアップロードすること (ウイルスなどの混入を防ぐため)
 - その他のルールに関してはにDiscord側の記載を確認すること
-- 私たちのDiscordへの参加は[こちら](https://discord.gg/EWfrwBFspF)から
+- 私たちのDiscordへの参加は[こちら](https://discord.gg/EWfrwBFspF){:target="_blank"}から
