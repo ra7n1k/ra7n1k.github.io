@@ -87,7 +87,7 @@ main h2, main details summary {
 main h3 {
     font-family: var(--hl-font);
 }
-main p, main details, main li {
+main p, main details, main li, main dl * {
     font-family: var(--p-font);
     font-size: 20px;
 }
