@@ -32,6 +32,10 @@ github_username:  ra7n1k
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-autolink_email
+  - jekyll-seo-tag
+  - jekyll_picture_tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
