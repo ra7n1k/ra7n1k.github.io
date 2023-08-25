@@ -124,13 +124,6 @@ main hr {
     margin: 0;
     border: 0;
 }
-main dl * {
-    font-family: var(--p-font);
-    font-size: 20px;
-}
-main dl dd {
-    margin-left: 0;
-}
 main table {
     background-color: #f8f8f8;
     border-collapse: collapse;
