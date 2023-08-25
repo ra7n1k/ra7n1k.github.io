@@ -91,6 +91,9 @@ main p, main details, main li, main dl * {
     font-family: var(--p-font);
     font-size: 20px;
 }
+main dd {
+    margin: 0;
+}
 main details summary {
     display: flex;
     flex-direction: row;
