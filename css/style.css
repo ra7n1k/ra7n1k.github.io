@@ -146,3 +146,6 @@ main table td {
 main dfn {
     font-style: normal;
 }
+main .bold {
+    font-family: var(--hl-font);
+}
