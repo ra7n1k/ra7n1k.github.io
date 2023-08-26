@@ -2,6 +2,7 @@
 layout: default
 title: はじめに
 deception: やきとりサーバーでの生活を始める上で必要な基本的な情報を提供します。
+canonical_url: https://www.yakitori.tk/beginning
 ---
 
 ## ログイン
