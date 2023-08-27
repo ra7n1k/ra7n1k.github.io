@@ -133,6 +133,7 @@ main .button {
 
     width: fit-content;
     padding: 12px 24px;
+    margin: 20px 0;
     background-color: var(--a-color);
     border: none;
     border-radius: 6px;
