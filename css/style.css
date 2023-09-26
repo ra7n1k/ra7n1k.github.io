@@ -112,6 +112,7 @@ main details summary {
     margin: 16px 0;
 
     appearance: none;
+    -webkit-appearance: none;
     list-style: none;
     cursor: pointer;
     user-select: none;
