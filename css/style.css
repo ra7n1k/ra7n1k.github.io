@@ -91,13 +91,13 @@ main p, main details, main li, main dl * {
     font-family: var(--p-font);
     font-size: 20px;
 }
-main dl:not(#members *) {
+main #list dl {
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-left: 24px;
 }
-main dt:not(#members *), main dt *:not(#members *) {
+main #list dt, main #list dt * {
     font-family: var(--hl-font);
     font-weight: bold;
 }
