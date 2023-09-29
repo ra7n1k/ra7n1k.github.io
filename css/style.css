@@ -142,7 +142,6 @@ main hr {
     border: 0;
 }
 main table {
-    background-color: #f8f8f8;
     border-collapse: collapse;
 }
 main table tr * {
@@ -151,6 +150,12 @@ main table tr * {
     border-right: 1px solid #c0c0c0;
 
     text-align: center;
+}
+main table tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+main table tr:nth-child(even) {
+    background-color: #f8f8f8;
 }
 main table td {
     font-family: var(--p-font);
