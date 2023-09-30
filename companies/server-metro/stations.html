@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>駅リスト - サーバー地下鉄</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <a id="logo" href="./"><img src="./imgs/header.svg" alt=""></a>
+        </header>
+        <main>
+            <section id="about">
+                <h2>駅リスト</h2>
+                <p>ここではサーバー地下鉄の駅のリストを示します。</p>
+            </section>
+            <section id="ns-line">
+                <h2>南北線</h2>
+                <p>南北線はサーバー地下鉄の中で最も早く開業した路線で、現在は2つの駅を接続しています。</p>
+                <map name="ns-line">
+                    <area id="nsl-cs" shape="circle" href="#cs" alt="">
+                    <area id="nsl-efms" shape="circle" href="#efms" alt="">
+                </map>
+                <img id="ns-line-m" usemap="#ns-line" src="./imgs/ns-line.svg" alt="">
+                <h3 id="cs">中央駅</h3>
+                <p>生活ワールドの中央に位置する駅の一つで、歴史的で豪華なデザインが特徴です。</p>
+                <img src="./imgs/cs.webp" alt="">
+                <h3 id="efms">民族友好記念駅</h3>
+                <p>交易をはじめとする砂漠の住人との友好的な関係の樹立を記念して作られました。砂漠の強い日差しと伝統的な素材を生かしたデザインが特徴です。</p>
+                <img src="./imgs/efms.webp" alt="">
+            </section>
+        </main>
+        <footer>
+            <p>Webページの内容について:</p>
+            <address><a href="https://discordapp.com/users/944774508131278878">Ratnik/ra7n1k</a></address>
+        </footer>
+        <script src="./line-map.js"></script>
+    </body>
+</html>
