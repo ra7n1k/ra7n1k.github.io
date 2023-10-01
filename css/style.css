@@ -94,7 +94,7 @@ main {
     flex-direction: column;
     gap: 24px;
 }
-div, section, details, ol {
+div, section, details, ol, li {
     display: flex;
     flex-direction: column;
     gap: 16px;
