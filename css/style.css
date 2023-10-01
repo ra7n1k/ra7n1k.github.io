@@ -92,7 +92,14 @@ header nav a {
 main {
     display: flex;
     flex-direction: column;
+    gap: 24px;
+}
+div, section, details, ol {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
+}
+main {
     width: 75%;
     margin: 112px auto 32px;
 }
@@ -128,7 +135,6 @@ summary {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 16px 0;
 
     appearance: none;
     -webkit-appearance: none;
@@ -184,7 +190,7 @@ ol, ul {
     flex-direction: column;
     gap: 16px;
     padding: 0;
-    margin: 0;
+    margin: 16px 0;
 }
 li {
     margin-left: 24px;
