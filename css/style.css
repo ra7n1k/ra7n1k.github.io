@@ -6,9 +6,7 @@
     --hl-font: 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
     --p-font: 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     --c-font: Consolas, Courier New, Courier, monospace, SFMono-Regular, Menlo, Monaco;
-    --a-color: #2070c0;
-    --a-hover-color: #2060b0;
-    --a-active-color: #2050a0;
+    --a-color: #2070e0;
 }
 html {
     background-color: #fff;
