@@ -103,8 +103,11 @@ body footer p {
     margin: 0 0 8px;
 }
 body footer address a {
-    color: #e0e0e0;
+    color: #fff;
     text-decoration: none;
+}
+body footer address a:hover {
+    text-decoration: underline solid 1.5px;
 }
 body img[usemap="#ns-line"] {
     box-sizing: border-box;
