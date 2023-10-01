@@ -10,7 +10,7 @@ body {
 body img {
     vertical-align: bottom;
     user-select: none;
-    pointer-events: none;
+    pointer-events: visible;
 }
 
 body header {
