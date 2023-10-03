@@ -11,13 +11,13 @@
 html {
     background-color: #fff;
 }
-
-/* standard */
 body {
     font-family: var(--hl-font);
 
     margin: 0;
 }
+
+/* standard */
 h1, h2, h3, h4, h5, h6, summary {
     font-family: var(--hl-font);
     font-weight: bold;
