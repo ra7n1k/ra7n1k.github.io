@@ -1,36 +1,14 @@
 ---
+layout: default-html-body
+title: 404
 permalink: /404.html
 ---
-
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <base href="https://www.yakitori.tk/">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>404 - やきとりサーバー</title>
-        <meta name="robots" content="noindex, nofollow">
-        <link rel="shortcut icon" href="./imgs/logos/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="./css/style.css" media="all">
-        <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 1000px)">
-        <link rel="stylesheet" href="./css/pages/404.css">
-    </head>
-    <body>
-        <header>
-            <a href="./" aria-label="ホーム"><img src="./imgs/logos/header.svg" alt="" width="48" height="48"></a>
-            <nav>
-                <a href="./rules">ルール</a>
-                <a href="./beginning">はじめに</a>
-                <a href="./guide">ご案内</a>
-            </nav>
-        </header>
-        <div id="cover">
-            <section>
-                <h1><span>404</span> Not Found</h1>
-                <br>
-                <h2>お探しのページは見つかりませんでした。まだ作られていないか、削除されたかもしれません。</h2>
-                <p>もし不具合であると思われる場合はオーナーにお問い合わせください。</p>
-            </section>
-        </div>
-    </body>
-</html>
+{% include header.html %}
+<section id="cover">
+    <section>
+        <h1><span>404</span> Not Found</h1>
+        <br>
+        <h2>お探しのページは見つかりませんでした。まだ作られていないか、削除されたかもしれません。</h2>
+        <p>もし不具合であると思われる場合はオーナーにお問い合わせください。</p>
+    </section>
+</section>

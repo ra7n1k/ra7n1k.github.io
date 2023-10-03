@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-md
 title: ルール
 deception: サーバーでの資源や建築、ソーシャルに関するルールの詳細を記載しています。
 canonical_url: https://www.yakitori.tk/rules
