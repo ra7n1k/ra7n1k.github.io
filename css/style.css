@@ -234,6 +234,7 @@ label {
     font-weight: 500;
 }
 #copy img {
+    width: 100%;
     object-fit: cover;
 }
 .required::after {
