@@ -1,5 +1,5 @@
 ---
-layout: default-md
+layout: default-md.html
 title: 売買禁止リスト
 deception: サーバー内でプレイヤー間の売買が禁止されるアイテムのリストを示します。
 canonical_url: https://www.yakitori.tk/no-buy-sell
