@@ -104,6 +104,8 @@ header section *:hover {
     text-decoration: underline;
 }
 
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -111,24 +113,25 @@ main {
     max-width: 1440px;
     padding: 32px;
     margin: 72px auto auto;
-    background-color: #fff;
 }
-.display main {
-    display: none;
+div, section, details, ol {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
-main dl, main ul, main ol {
+dl, ul, ol {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-main dd {
+dd {
     margin-left: 0;
 }
-main li strong, main summary strong {
+li strong, summary strong {
     font-family: var(--hlp-font);
     font-size: 18px;
 }
-main code {
+code {
     font-family: var(--c-font);
     font-size: 16px;
 
@@ -138,10 +141,10 @@ main code {
 
     vertical-align: baseline;
 }
-main details {
+details {
     margin: 20px 0;
 }
-main details summary {
+details summary {
     font-family: var(--hlp-font);
     font-size: 20px;
 
@@ -152,7 +155,7 @@ main > section {
     display: flex;
     flex-direction: column;
 }
-main .button {
+.button {
     font-family: var(--hlp-font);
     font-weight: bold;
     font-size: 16px;
@@ -169,13 +172,13 @@ main .button {
     cursor: pointer;
     user-select: none;
 }
-main .button:hover {
+.button:hover {
     text-decoration: none;
 
     background-color: #2060c0;
     box-shadow: 0 1px 2px 0 #00000060;
 }
-main .button[target="_blank"]::after {
+.button[target="_blank"]::after {
     content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgaGVpZ2h0PSIxNiIKICAgdmlld0JveD0iMCA5NiA3NjggNzY4IgogICB3aWR0aD0iMTYiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzQiCiAgIHNvZGlwb2RpOmRvY25hbWU9Im9wZW5faW5fbmV3X0ZJTEwwX3dnaHQ0MDBfR1JBRDBfb3BzejIwLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4yLjIgKDczMmEwMWRhNjMsIDIwMjItMTItMDkpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM4IiAvPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3NiIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiMwMDAwMDAiCiAgICAgYm9yZGVyb3BhY2l0eT0iMC4yNSIKICAgICBpbmtzY2FwZTpzaG93cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMC4wIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjAiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSI1MS4zNSIKICAgICBpbmtzY2FwZTpjeD0iNy4wNzg4NzA1IgogICAgIGlua3NjYXBlOmN5PSIxMC4xMDcxMDgiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIyNTYwIgogICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjEzMzQiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9Ii0xMSIKICAgICBpbmtzY2FwZTp3aW5kb3cteT0iLTExIgogICAgIGlua3NjYXBlOndpbmRvdy1tYXhpbWl6ZWQ9IjEiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ic3ZnNCIKICAgICBzaG93Z3VpZGVzPSJmYWxzZSIgLz4KICA8cGF0aAogICAgIGQ9Im0gMTIwLDgxNiBxIC0yOS42OTk5OTksMCAtNTAuODQ5OTk5LC0yMS4xNSAtMjEuMTUsLTIxLjE1IC0yMS4xNSwtNTAuODUgViAyMTYgcSAwLC0yOS43IDIxLjE1LC01MC44NSBRIDkwLjMsMTQ0IDEyMCwxNDQgaCAyNjQgdiA3MiBIIDEyMCBWIDc0NCBIIDY0OCBWIDQ4MCBoIDcyIHYgMjY0IHEgMCwyOS43IC0yMS4xNSw1MC44NSBRIDY3Ny43LDgxNiA2NDgsODE2IFogTSAyOTEsNjI0IDI0MCw1NzMgNTk3LDIxNiBIIDQ4MCBWIDE0NCBIIDcyMCBWIDM4NCBIIDY0OCBWIDI2NyBaIgogICAgIGlkPSJwYXRoMiIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPgo8L3N2Zz4K");
 
     display: flex;
@@ -183,33 +186,33 @@ main .button[target="_blank"]::after {
     height: 16px;
     margin: auto auto auto 2px;
 }
-main .button.disabled {
+.button.disabled {
     background-color: #b0b0b0;
 
     cursor: not-allowed;
     pointer-events: none;
 }
-main form {
+form {
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 100%;
 }
-main form div {
+form div {
     display: flex;
     flex-direction: column;
 }
-main legend, main form div label {
+legend, form div label {
     font-family: var(--hlp-font);
 }
-main fieldset {
+fieldset {
     display: flex;
     flex-direction: column;
     max-width: 100%;
     border: 1.5px solid #e0e0e0;
     border-radius: 6px;
 }
-main label {
+label {
     padding-left: 22px;
     text-indent: -22px;
 
@@ -238,7 +241,7 @@ main label {
 
     content: "*";
 }
-main input[type="text"], main input[type="email"], main textarea {
+input[type="text"], input[type="email"], textarea {
     font-family: var(--hlp-font);
     color: #000;
     font-size: 16px;
@@ -250,10 +253,10 @@ main input[type="text"], main input[type="email"], main textarea {
     outline: none;
     resize: none;
 }
-main input[type="text"]:hover, main input[type="email"]:hover, main textarea:hover {
+input[type="text"]:hover, input[type="email"]:hover, textarea:hover {
     background-color: #f0f0f0;
 }
-main input[type="text"]:focus, main input[type="email"]:focus, main textarea:focus {
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     background-color: #fff;
     border-color: #e0e0e0;
 }
