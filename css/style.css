@@ -91,14 +91,15 @@ header {
 #logo img {
     vertical-align: top;
 }
-header section {
+header nav {
     display: inline-flex;
     flex-direction: row;
     gap: 16px;
 }
-header section * {
-    color: #505050;
+header nav a {
+    font-size: 20px;
     font-weight: bold;
+    color: #505050;
 }
 
 /* main */
@@ -119,6 +120,7 @@ dl, ul, ol {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin: 0;
 }
 dd {
     margin-left: 0;
@@ -159,6 +161,7 @@ button, .button {
     color: #fff;
 
     width: fit-content;
+    height: fit-content;
     padding: 12px 24px;
     margin: 24px 0;
     background-color: var(--a-color);
