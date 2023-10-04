@@ -137,11 +137,12 @@ summary {
     justify-content: space-between;
     align-items: center;
 
-    appearance: none;
-    -webkit-appearance: none;
     list-style: none;
     cursor: pointer;
     user-select: none;
+}
+summary::-webkit-details-marker {
+    display: none;
 }
 summary span img {
     transition: .3s;
