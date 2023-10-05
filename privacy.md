@@ -42,4 +42,4 @@ Google AnalyticsとMicrosoft Analyticsを利用しているため、GoogleとMic
 私たちはそれ以外の個人や団体には情報を共有しません。ただし、事前で公開することが定められたフォームの回答などはその限りではありません。
 
 ## コンタクト
-このサイトの管理者は<a href="https://discordapp.com/users/944774508131278878">Ratnik/ra7n1k</a>です。ご不明の点があればご連絡ください。
+このサイトの管理者は[Ratnik/ra7n1k](https://discordapp.com/users/944774508131278878)です。ご不明の点があればご連絡ください。
