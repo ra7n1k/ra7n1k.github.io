@@ -17,6 +17,7 @@ canonical_url: https://www.yakitori.tk/privacy
 - 私たちの管理するフォームが送信されたとき
 
 私たちは以下の情報をお客様から収集します。
+<section>
 ### やきとりサーバーのホームページを開いたとき
 - 国
 - OS
@@ -33,6 +34,7 @@ canonical_url: https://www.yakitori.tk/privacy
 ### 私たちの管理するフォームが送信されたとき
 - フォームに入力された内容
 - タイムスタンプ
+</section>
 
 ## 収集した情報の利用
 収集した上記の情報は次のために利用します。
