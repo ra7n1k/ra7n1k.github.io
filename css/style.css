@@ -208,3 +208,27 @@ li h3 {
 section section:not(.list) {
     margin-left: 24px;
 }
+button {
+    font-family: var(--hl-font);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    width: fit-content;
+    padding: 12px 24px;
+    background-color: var(--a-color);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+}
+button:hover {
+    text-decoration: none;
+    background-color: #2060c0;
+    box-shadow: 0 1px 2px 0 #00000060;
+}
+button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+    pointer-events: none;
+}

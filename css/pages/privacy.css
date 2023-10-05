@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+}
+dialog[open] {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: fixed;
+    z-index: 2;
+    width: fit-content;
+    max-width: 1440px;
+    height: fit-content;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #00000080;
+    background-color: #fff;
+    visibility: visible;
+    inset-block-start: 0;
+    inset-block-end: 0;
+}
+menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+button {
+    margin: 0;
+}
+#agree {
+    background-color: #40e040;
+}
+#agree:hover {
+    background-color: #60f060;
+}
+#disagree {
+    background-color: #e00000;
+}
+#disagree:hover {
+    background-color: #c00000;
+}
