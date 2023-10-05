@@ -113,7 +113,7 @@ s * {
     text-decoration: line-through;
     pointer-events: none;
 }
-p, li, li *, dd, dd *, details *:not(summary) {
+p, li, li p, dd, dd p, details *:not(summary) {
     font-family: var(--p-font);
     font-size: 20px;
 }
