@@ -44,6 +44,8 @@ window.onload = () => {
         dialog.close();
     } else if (consent === "false") {
         dialog.close();
+    } else {
+        dialog.showModal();
     }
 };
 
