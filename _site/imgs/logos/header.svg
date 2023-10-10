@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="72"
+   height="24"
+   viewBox="0 0 19.049997 6.349999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="header.svg"
+   inkscape:export-filename="ratnik-logo-1024.png"
+   inkscape:export-xdpi="384"
+   inkscape:export-ydpi="384"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     showgrid="false"
+     inkscape:zoom="11.313709"
+     inkscape:cx="39.597978"
+     inkscape:cy="11.181125"
+     inkscape:window-width="2560"
+     inkscape:window-height="1334"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid3"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g12"
+       transform="scale(0.18749999)">
+      <path
+         id="text1"
+         style="-inkscape-font-specification:'Segoe UI';fill:#ff6040;stroke-width:12.0919;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         d="M 7.9369823,20.901047 0,6.3499993 V 33.866663 H 7.628474 V 20.901047 Z" />
+      <path
+         id="path12"
+         style="-inkscape-font-specification:'Segoe UI';fill:#00f0ff;stroke-width:12.0919;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         d="m 21.305157,22.822377 -5.634798,4.460192 3.979085,6.584094 h 8.761738 L 22.011057,23.853322 c -0.216274,-0.33986 -0.455943,-0.684349 -0.7059,-1.030945 z" />
+      <path
+         id="path11"
+         style="-inkscape-font-specification:'Segoe UI';fill:#60ff00;stroke-width:12.0919;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         d="m 22.520587,14.948957 -6.654374,-2.54093 c -0.244492,0.476115 -0.570184,0.915826 -0.987536,1.313614 -0.99191,0.944677 -2.306507,1.416968 -3.943945,1.416968 H 7.628474 V 9.2624826 L 0,6.3499993 7.9369823,20.901047 h 1.7461465 c 0.4723382,0 0.9050132,0.102279 1.2986282,0.306958 0.40936,0.188935 0.795427,0.472207 1.157552,0.850078 0.377871,0.362125 0.747884,0.803344 1.11001,1.322916 0.362126,0.519572 0.739649,1.109679 1.133264,1.770951 l 1.287776,2.130619 5.634798,-4.460192 c -0.132173,-0.183275 -0.262518,-0.366229 -0.40411,-0.551388 -0.393615,-0.551061 -0.810754,-1.062969 -1.251603,-1.535306 -0.440849,-0.472338 -0.897604,-0.881967 -1.369942,-1.228349 -0.472338,-0.362125 -0.960683,-0.621835 -1.46451,-0.77928 v -0.09405 c 1.149356,-0.330637 2.188708,-0.787392 3.117639,-1.369943 0.944677,-0.582549 1.747882,-1.275451 2.409155,-2.078425 0.06314,-0.07667 0.118392,-0.158291 0.178801,-0.236678 z" />
+      <path
+         id="path10"
+         style="-inkscape-font-specification:'Segoe UI';fill:#ffe060;stroke-width:12.0919;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+         d="M 0,0 V 6.3499993 L 7.628474,9.2624826 V 5.7154127 h 3.447851 c 3.542535,0 5.313887,1.4800535 5.313887,4.4400383 0,0.830112 -0.178189,1.579159 -0.523999,2.252576 l 6.654374,2.54093 c 0.572302,-0.742627 1.028438,-1.558458 1.355989,-2.455664 0.362126,-1.007655 0.543119,-2.101643 0.543119,-3.2824868 C 24.419695,3.0704128 20.310446,0 12.091767,0 Z" />
+    </g>
+    <path
+       d="M 8.1731588,6.2755771 H 7.6646635 V 5.7794841 H 7.6522612 Q 7.320499,6.349991 6.6755782,6.349991 q -0.4743889,0 -0.7441395,-0.251147 -0.2666499,-0.2511471 -0.2666499,-0.666625 0,-0.8898667 1.0479963,-1.035594 L 7.6646635,4.2633 q 0,-0.8092516 -0.6542226,-0.8092516 -0.5736075,0 -1.035594,0.3906732 V 3.323824 q 0.4681877,-0.2976558 1.0790022,-0.2976558 1.1193097,0 1.1193097,1.1844219 z M 7.6646635,4.6694761 6.89882,4.7748959 Q 6.5453538,4.8245052 6.3655201,4.951629 6.1856864,5.0756522 6.1856864,5.3950121 q 0,0.2325435 0.1643308,0.3813714 0.1674313,0.1457273 0.443383,0.1457273 0.3782709,0 0.6232168,-0.2635494 0.2480465,-0.2666499 0.2480465,-0.672826 z m 2.9393505,1.5750952 q -0.179833,0.099219 -0.474389,0.099219 -0.8340559,0 -0.8340559,-0.9301744 V 3.5346635 H 8.7498669 V 3.1005821 H 9.2955691 V 2.3254369 L 9.8040644,2.1611061 v 0.939476 H 10.604014 V 3.5346635 H 9.8040644 v 1.7890352 q 0,0.3193598 0.1085203,0.4557854 0.1085203,0.1364256 0.3596673,0.1364256 0.192236,0 0.331762,-0.1054198 z m 3.314521,0.031006 H 13.41004 V 4.4648378 q 0,-1.0107894 -0.737938,-1.0107894 -0.381372,0 -0.632519,0.288354 -0.248046,0.2852534 -0.248046,0.7224354 v 1.8107393 h -0.508496 v -3.174995 h 0.508496 v 0.5270988 h 0.0124 q 0.359667,-0.6015127 1.041795,-0.6015127 0.520898,0 0.796849,0.3379633 0.275952,0.3348628 0.275952,0.9704819 z m 1.218529,-3.981146 q -0.136426,0 -0.232544,-0.093018 -0.09612,-0.093017 -0.09612,-0.2356441 0,-0.1426267 0.09612,-0.2356442 0.09612,-0.096118 0.232544,-0.096118 0.139526,0 0.235644,0.096118 0.09922,0.093017 0.09922,0.2356442 0,0.1364255 -0.09922,0.2325436 -0.09612,0.096118 -0.235644,0.096118 z m 0.248046,3.981146 h -0.508495 v -3.174995 h 0.508495 z m 3.664887,0 H 18.336864 L 16.935401,4.7500912 h -0.0124 V 6.2755771 H 16.414503 V 1.5750963 h 0.508496 v 2.9796583 h 0.0124 l 1.33325,-1.4541725 h 0.666625 L 17.4625,4.6322691 Z"
+       id="text2"
+       style="-inkscape-font-specification:'Segoe UI';fill:#505050;stroke-width:6.34999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       aria-label="atnik" />
+  </g>
+</svg>
