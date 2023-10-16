@@ -179,12 +179,12 @@ tr * {
 
     text-align: center;
 }
-tr:nth-child(odd) {
-    background-color: #f0f0f0;
-}
-tr:nth-child(even) {
-    background-color: #f8f8f8;
-}
+    tr:nth-child(odd) {
+        background-color: #f0f0f0;
+    }
+    tr:nth-child(even) {
+        background-color: #f8f8f8;
+    }
 td {
     font-family: var(--p-font);
 }
@@ -202,6 +202,9 @@ li {
     padding: 24px;
     background-color: #f8f8f8;
     border: 1px solid #c0c0c0;
+}
+.list-box li {
+    display: list-item;
 }
 li h3 {
     margin: 16px 0;
