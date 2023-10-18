@@ -200,7 +200,7 @@ li {
 }
 .list-box {
     padding: 24px;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
     border: 1px solid #c0c0c0;
 }
 .list-box li {
@@ -235,4 +235,20 @@ button:disabled {
     background-color: #b0b0b0;
     cursor: not-allowed;
     pointer-events: none;
+}
+
+/* footer */
+footer {
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #c0c0c0;
+}
+small {
+    font-size: 16px;
 }
