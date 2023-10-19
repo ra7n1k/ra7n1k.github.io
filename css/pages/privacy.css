@@ -33,10 +33,10 @@ button {
     margin: 0;
 }
 #agree {
-    background-color: #40e040;
+    background-color: #408020;
 }
 #agree:hover {
-    background-color: #60f060;
+    background-color: #60a040;
 }
 #disagree {
     background-color: #e00000;
