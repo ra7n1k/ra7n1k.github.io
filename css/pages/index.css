@@ -32,6 +32,7 @@
 #members > div {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 48px;
 }
 #members div div dl {
