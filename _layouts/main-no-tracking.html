@@ -18,9 +18,13 @@ You should have received a copy of the GNU General Public License along with thi
         <link rel="stylesheet" href="https://www.yakitori.tk/css/mobile.css" media="screen and (max-width: 1000px)">
     </head>
     <body>
-        {% include header.html %}
-        {{ content }}
-        {% include footer.html %}
-        {% include privacy.html %}
+        {% include header %}
+        <main>
+            <h1>{{ page.title }}</h1>
+            <section>
+                {{ content }}
+            </section>
+        </main>
+        {% include footer %}
     </body>
 </html>
