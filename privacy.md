@@ -1,5 +1,5 @@
 ---
-layout: default-md-nga
+layout: default-main-no-tracking
 title: プライバシーポリシー
 deception: 私たちの個人情報保護方針についてここで説明します。
 canonical_url: https://www.yakitori.tk/privacy

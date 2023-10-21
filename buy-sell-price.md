@@ -1,5 +1,5 @@
 ---
-layout: default-md
+layout: default-main
 title: アイテム価格表
 deception: アイテムの取引の基本価格を示します。
 canonical_url: https://www.yakitori.tk/buy-sell-price
