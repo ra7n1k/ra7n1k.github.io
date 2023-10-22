@@ -248,7 +248,8 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    height: 64px;
+    min-height: 64px;
+    max-height: 96px;
     background-color: #f0f0f0;
     border-top: 1px solid #c0c0c0;
 }
