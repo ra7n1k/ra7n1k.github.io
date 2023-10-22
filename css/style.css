@@ -186,7 +186,7 @@ button, .button[target="_blank"]::after {
     height: 16px;
     margin: auto auto auto 2px;
 }
-button, .button.disabled {
+button.disabled, .button.disabled {
     background-color: #b0b0b0;
 
     cursor: not-allowed;
