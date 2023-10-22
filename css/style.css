@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 :root {
-    --hlp-font: 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
+    --hlp-font: 'Noto Sans JP', 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
     --c-font: Consolas, Courier New, Courier, monospace, SFMono-Regular, Menlo, Monaco;
     --a-color: #2070e0;
 }
@@ -20,7 +20,6 @@ body {
 /* standard */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--hlp-font);
-    font-weight: 500;
 
     margin: 0;
 }
@@ -41,7 +40,7 @@ h5 {
 }
 h6 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: normal;
 }
 p {
     font-size: 24px;
@@ -222,10 +221,11 @@ label {
 #copy {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 32px;
 }
 #copy > * {
-    width: calc(50% - 16px);
+    max-width: 672px;
 }
 #copy h1, #copy p{
     color: #404040;
