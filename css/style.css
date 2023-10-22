@@ -238,6 +238,9 @@ label {
     width: 100%;
     object-fit: cover;
 }
+summary {
+    margin: 0;
+}
 .required::after {
     color: #e03020;
 
