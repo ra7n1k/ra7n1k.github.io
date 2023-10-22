@@ -107,6 +107,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 100%;
     max-width: 1440px;
     padding: 32px;
     margin: 72px auto auto;
@@ -186,7 +187,7 @@ button, .button[target="_blank"]::after {
     height: 16px;
     margin: auto auto auto 2px;
 }
-button, .button.disabled {
+button.disabled, .button.disabled {
     background-color: #b0b0b0;
 
     cursor: not-allowed;
@@ -237,6 +238,9 @@ label {
 #copy img {
     width: 100%;
     object-fit: cover;
+}
+summary {
+    margin: 0;
 }
 .required::after {
     color: #e03020;
