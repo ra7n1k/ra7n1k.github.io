@@ -79,6 +79,7 @@ header {
     padding: 24px;
     background-color: #ffffffc0;
     backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     
     box-shadow: 0 0 8px #00000040;
 }
