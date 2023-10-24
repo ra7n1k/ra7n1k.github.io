@@ -7,6 +7,7 @@ form.addEventListener("submit", function(event) {
       inputs[i].readOnly = true;
     }
     button.classList.add("disabled");
+    button.textContent = "送信済み";
 });
 
 function onSubmit() {
