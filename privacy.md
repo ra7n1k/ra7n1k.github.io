@@ -4,6 +4,7 @@ title: プライバシーポリシー
 deception: 私たちの個人情報保護方針についてここで説明します。
 canonical_url: https://www.yakitori.tk/privacy
 ---
+
 このプライバシーポリシーはやきとりサーバーのホームページのすべてのコンテンツに適用されます。
 
 ## トラッカー
@@ -45,4 +46,4 @@ Google AnalyticsとMicrosoft Analyticsを利用しているため、Google LLC�
 私たちはそれ以外の個人や団体には情報を共有しません。ただし、事前で公開することが定められたフォームの回答などはその限りではありません。
 
 ## コンタクト
-このサイトの管理者は[Ratnik/ra7n1k](https://discordapp.com/users/944774508131278878)です。ご不明の点があればご連絡ください。
+このサイトの管理者は[Ratnik/Ra7n1k](https://yakitori.tk/ra7n1k)です。ご不明の点があればご連絡ください。
