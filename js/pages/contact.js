@@ -1,10 +1,14 @@
+const form = document.getElementById("form");
+const inputs = form.querySelectorAll("input, textarea");
+const button = document.querySelector(".button[type='submit']");
+
 form.addEventListener("submit", function(event) {
-    let form = document.getElementById("form");
-    let inputs = form.querySelectorAll("input, textarea");
     for (let i = 0; i < inputs.length; i++) {
       inputs[i].readOnly = true;
     }
-    let button = document.querySelector(".button[type='submit']");
     button.classList.add("disabled");
-    button.textContent = "送信済み";
 });
+
+function onSubmit() {
+  button.classList.remove("disabled");
+}

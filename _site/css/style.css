@@ -142,7 +142,7 @@ code {
     vertical-align: baseline;
 }
 details {
-    margin: 24px 0;
+    margin: 0;
 }
 details summary {
     font-family: var(--hlp-font);
@@ -189,6 +189,8 @@ button, .button[target="_blank"]::after {
 }
 button.disabled, .button.disabled {
     background-color: #b0b0b0;
+
+    box-shadow: none;
 
     cursor: not-allowed;
     pointer-events: none;
@@ -238,9 +240,6 @@ label {
 #copy img {
     width: 100%;
     object-fit: cover;
-}
-summary {
-    margin: 0;
 }
 .required::after {
     color: #e03020;

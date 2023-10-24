@@ -190,6 +190,8 @@ button, .button[target="_blank"]::after {
 button.disabled, .button.disabled {
     background-color: #b0b0b0;
 
+    box-shadow: none;
+
     cursor: not-allowed;
     pointer-events: none;
 }
