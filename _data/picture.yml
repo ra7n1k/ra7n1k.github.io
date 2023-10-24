@@ -1,4 +1,0 @@
-presets:
-  default:
-    formats: [avif, webp, original]
-    link_source: true

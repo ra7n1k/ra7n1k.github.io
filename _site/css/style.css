@@ -79,6 +79,7 @@ header {
     padding: 24px;
     background-color: #ffffffc0;
     backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     
     box-shadow: 0 0 8px #00000040;
 }
@@ -227,8 +228,13 @@ label {
     flex-wrap: wrap;
     gap: 32px;
 }
-#copy > * {
-    max-width: 672px;
+#copy section {
+    width: calc(50% - 16px);
+}
+@media (max-width: 1080px) {
+    #copy section {
+        width: 100%;
+    }
 }
 #copy h1, #copy p{
     color: #404040;

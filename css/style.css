@@ -228,8 +228,13 @@ label {
     flex-wrap: wrap;
     gap: 32px;
 }
-#copy > * {
-    max-width: 672px;
+#copy section {
+    width: calc(50% - 16px);
+}
+@media (max-width: 1080px) {
+    #copy section {
+        width: 100%;
+    }
 }
 #copy h1, #copy p{
     color: #404040;
