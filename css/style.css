@@ -248,7 +248,6 @@ label {
     object-fit: cover;
 }
 #social img {
-    height: 20px;
     margin: 0 4px 6px;
 }
 .required::after {
