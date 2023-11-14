@@ -102,6 +102,9 @@ div, section, details, ol, .list-box li {
     flex-direction: column;
     gap: 16px;
 }
+details ol {
+    margin: 16px 0;
+}
 main {
     width: 75%;
     margin: 112px auto 32px;
