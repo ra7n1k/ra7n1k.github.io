@@ -6,7 +6,7 @@ canonical_url: https://www.yakitori.tk/companies/form
 ---
 <link rel="stylesheet" href="../css/pages/forms.css">
 <section id="form">
-    <p>登録の<a href="../#new">条件</a>を理解した場合は次のフォームから登録することができます。</p>
+    <p>登録の<a href="../companies#new">条件</a>を理解した場合は次のフォームから登録することができます。</p>
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe9rbUztm_giVwNCJpudxW5ifWA8wOQJuPSj9b23cXT4A2vtQ/formResponse" target="hidden">
         <label class="req" for="entry.567275126">会社名</label>
         <input type="text" name="entry.567275126" required>
@@ -22,10 +22,11 @@ canonical_url: https://www.yakitori.tk/companies/form
             <label><input type="radio" name="entry.124322962" value="はい" required>はい</label>
             <label><input type="radio" name="entry.124322962" value="いいえ">いいえ</label>
         </fieldset>
-        <label for="entry.1058038092">希望するディレクトリ名</label>
-        <input type="text" name="entry.1058038092">
+        <label for="entry.1058038092" style="display: none;">希望するディレクトリ名 (半角英数、あなたの会社名など)</label>
+        <input type="text" name="entry.1058038092" style="display: none;">
         <button type="submit">送信</button>
     </form>
     <iframe src="" name="hidden" loading="lazy" frameborder="0"></iframe>
 </section>
 <script src="../js/forms.js"></script>
+<script src="../js/regist.js"></script>
