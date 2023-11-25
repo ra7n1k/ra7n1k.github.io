@@ -25,7 +25,7 @@ titles:
   no-buy-sell: "Artículos prohibidos"
   companies: "Empresa"
   regist: "Registrarse"
-  404: "404"
+  not-found: "404"
 
 # footer
 license: "Licencia"
