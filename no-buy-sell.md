@@ -1,12 +1,10 @@
 ---
 layout: main
-title: titles.no-buy-sell
-namespace: no-buy-sell
-permalink: /no-buy-sell
+title: 売買禁止
 ---
 
 サーバー内でプレイヤー間の売買が禁止されるアイテムのリストを示します。ただし、これはいつでも更新される可能性があることに注意してください。  
-また、ここに記載されなていないアイテムも[売買価格](https://www.yakitori.tk/buy-sell-price)に従って取引してください。
+また、ここに記載されなていないアイテムも[売買価格](buy-sell-price)に従って取引してください。
 * このリストに掲載されているアイテムは物々交換も禁止する。無償で提供するかAdmin Shopで売買すること。
 
 ## 鉱石

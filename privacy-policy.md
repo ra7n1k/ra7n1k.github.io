@@ -1,8 +1,6 @@
 ---
 layout: main
-title: titles.privacy
-namespace: privacy
-permalink: /privacy
+title: プライバシーポリシー
 ---
 
 このプライバシーポリシーはやきとりサーバーのホームページのすべてのコンテンツに適用されます。

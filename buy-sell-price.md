@@ -1,8 +1,6 @@
 ---
 layout: main
-title: titles.buy-sell-price
-namespace: buy-sell-price
-permalink: /buy-sell-price
+title: アイテム売買価格
 ---
 
 アイテムの取引の基本価格を示します。  
