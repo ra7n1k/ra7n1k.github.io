@@ -1,8 +1,8 @@
 ---
 layout: main
-title: 売買禁止リスト
-deception: サーバー内でプレイヤー間の売買が禁止されるアイテムのリストを示します。
-canonical_url: https://www.yakitori.tk/no-buy-sell
+title: titles.no-buy-sell
+namespace: no-buy-sell
+permalink: /no-buy-sell
 ---
 
 サーバー内でプレイヤー間の売買が禁止されるアイテムのリストを示します。ただし、これはいつでも更新される可能性があることに注意してください。  

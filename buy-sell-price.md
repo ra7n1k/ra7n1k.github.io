@@ -1,8 +1,8 @@
 ---
 layout: main
-title: アイテム価格表
-deception: アイテムの取引の基本価格を示します。
-canonical_url: https://www.yakitori.tk/buy-sell-price
+title: titles.buy-sell-price
+namespace: buy-sell-price
+permalink: /buy-sell-price
 ---
 
 アイテムの取引の基本価格を示します。  

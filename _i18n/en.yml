@@ -1,0 +1,31 @@
+# general
+title: "Yakitori Server"
+yakitori: "Yakitori"
+server: "Server"
+about: "About"
+general: "General"
+info: "Info"
+links: "Links"
+rules: "Rules"
+version: "Version"
+address: "Address"
+login: "Login"
+life: "Life"
+resources: "Resources"
+chat: "Chat"
+mtraps: "Monster Traps"
+mmembers: "Management Members"
+
+titles:
+  home: "Home"
+  privacy: "Privacy Policy"
+  rules: "Rules"
+  beginning: "Beginning"
+  buy-sell-price: "Item Sales Price"
+  no-buy-sell: "Items Prohibited to Buy or Sell"
+  companies: "Companies"
+  regist: "Register"
+  404: "404"
+
+# footer
+license: "License"

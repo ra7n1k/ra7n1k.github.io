@@ -16,6 +16,10 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
+  gem "jekyll-redirect-from"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-multiple-languages-plugin", "1.6.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -32,7 +36,4 @@ gem "wdm",:platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", :platforms => [:jruby]
 
-gem "jekyll-redirect-from"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
 gem "webrick", "~> 1.8"

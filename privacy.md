@@ -1,8 +1,8 @@
 ---
-layout: main-no-tracking
-title: プライバシーポリシー
-deception: 私たちの個人情報保護方針についてここで説明します。
-canonical_url: https://www.yakitori.tk/privacy
+layout: main
+title: titles.privacy
+namespace: privacy
+permalink: /privacy
 ---
 
 このプライバシーポリシーはやきとりサーバーのホームページのすべてのコンテンツに適用されます。

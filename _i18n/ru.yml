@@ -1,0 +1,31 @@
+# general
+title: "Яакитори Сервер"
+yakitori: "Яакитори"
+server: "Сервер"
+about: "Обзор"
+general: "Общий"
+info: "Информация"
+links: "Ссылки"
+rules: "Правила"
+version: "Версия"
+address: "Адрес"
+login: "Вход"
+life: "Жизнь"
+resources: "Ресурсы"
+chat: "Чат"
+mtraps: "Ловушки для монстров"
+mmembers: "Руководство"
+
+titles:
+  home: "Главная"
+  privacy: "Политика конфиденциальности"
+  rules: "Правила"
+  beginning: "Начало"
+  buy-sell-price: "Цена продажи товара"
+  no-buy-sell: "Предметы, которые запрещено покупать и продавать"
+  companies: "Компании"
+  regist: "Зарегистрироваться"
+  404: "404"
+
+# footer
+license: "Лицензия"
