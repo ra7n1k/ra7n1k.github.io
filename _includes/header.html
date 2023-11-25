@@ -1,8 +1,8 @@
 <header>
-    <a href="/"><img src="/imgs/logos/header.svg" alt="" width="48" height="48"></a>
+    <a href="{% tl home {{ site.lang }} %}"><img src="/imgs/logos/header.svg" alt="" width="48" height="48"></a>
     <nav>
-        <a href="/rules">{% t rules %}</a>
-        <a href="/beginning">{% t beginning %}</a>
-        <a href="/companies">{% t companies %}</a>
+        <a href="{% tl rules {{ site.lang }} %}">{% t rules %}</a>
+        <a href="{% tl beginning {{ site.lang }} %}">{% t beginning %}</a>
+        <a href="{% tl companies {{ site.lang }} %}">{% t companies %}</a>
     </nav>
 </header>

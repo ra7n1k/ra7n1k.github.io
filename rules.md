@@ -1,6 +1,8 @@
 ---
 layout: main
 title: titles.rules
+namespace: rules
+permalink: /rules
 ---
 
 ## {% t general %}
