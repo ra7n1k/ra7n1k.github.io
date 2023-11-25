@@ -1,6 +1,8 @@
 ---
 layout: main
 title: プライバシーポリシー
+permalink: /privacy-policy
+lang: ja
 ---
 
 このプライバシーポリシーはやきとりサーバーのホームページのすべてのコンテンツに適用されます。

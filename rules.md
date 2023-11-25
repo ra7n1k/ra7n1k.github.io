@@ -1,6 +1,8 @@
 ---
 layout: main
 title: ルール
+permalink: /rules
+lang: ja
 ---
 
 ## 総合

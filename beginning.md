@@ -1,6 +1,8 @@
 ---
 layout: main
 title: はじめに
+permalink: /beginning
+lang: ja
 ---
 
 ## ログイン

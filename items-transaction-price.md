@@ -1,6 +1,8 @@
 ---
 layout: main
 title: アイテム売買価格
+permalink: /items-transaction-price
+lang: ja
 ---
 
 アイテムの取引の基本価格を示します。  

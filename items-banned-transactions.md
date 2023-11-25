@@ -1,6 +1,8 @@
 ---
 layout: main
 title: 売買禁止
+permalink: /items-banned-transactions
+lang: ja
 ---
 
 サーバー内でプレイヤー間の売買が禁止されるアイテムのリストを示します。ただし、これはいつでも更新される可能性があることに注意してください。  
