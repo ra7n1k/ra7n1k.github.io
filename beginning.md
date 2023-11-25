@@ -1,8 +1,6 @@
 ---
 layout: main
 title: titles.beginning
-namespace: beginning
-permalink: /beginning
 ---
 
 ## {% t login %}
