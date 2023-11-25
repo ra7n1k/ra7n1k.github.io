@@ -25,7 +25,7 @@ titles:
   no-buy-sell: "売買禁止アイテム"
   companies: "会社"
   regist: "登録"
-  not-found: "404"
+  404: "404"
 
 # footer
 license: "ライセンス"
