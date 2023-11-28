@@ -36,7 +36,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-polyglot
 
 # Exclude from processing.
 # The following items will not be processed, by default.
