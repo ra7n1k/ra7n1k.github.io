@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 :root {
-    --hl-font: 'Noto Sans JP', 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
+    --h-font: 'Noto Sans JP', 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
     --p-font: 'Noto Serif JP', 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     --c-font: Consolas, Courier New, Courier, monospace, SFMono-Regular, Menlo, Monaco;
     --a-color: #2070e0;
@@ -12,14 +12,14 @@ html {
     background-color: #fff;
 }
 body {
-    font-family: var(--hl-font);
+    font-family: var(--h-font);
 
     margin: 0;
 }
 
 /* standard */
 h1, h2, h3, h4, h5, h6, summary {
-    font-family: var(--hl-font);
+    font-family: var(--h-font);
     font-weight: bold;
 
     margin: 0;
@@ -64,6 +64,9 @@ img {
     vertical-align: bottom;
     user-select: none;
     pointer-events: none;
+}
+strong {
+    font-family: var(--h-font);
 }
 
 /* header */
@@ -129,7 +132,7 @@ section > dl {
     margin: 0;
 }
 dt, dt * {
-    font-family: var(--hl-font);
+    font-family: var(--h-font);
     font-size: 20px;
     font-weight: bold;
 }
@@ -217,7 +220,7 @@ section section:not(.list) {
     margin-left: 24px;
 }
 button, .button {
-    font-family: var(--hl-font);
+    font-family: var(--h-font);
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
