@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-13 18:39+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../items-banned-transactions.md:1
+msgid "---\n"
+"layout: main\n"
+"title: 取引禁止アイテム\n"
+"permalink: /items-banned-transactions\n"
+"lang: ja\n"
+"---"
+msgstr ""
+
+#: ../../items-banned-transactions.md:8
+msgid "サーバー内でプレイヤー間の売買が禁止されるアイテムのリストを示します。ただし、これはいつでも更新される可能性があることに注意してください。  \n"
+"また、ここに記載されなていないアイテムも[アイテム取引価格](/items-transaction-price)に従って取引してください。\n"
+"* このリストに掲載されているアイテムは物々交換も禁止する。無償で提供するかAdmin Shopで売買すること。"
+msgstr ""
+
+#: ../../items-banned-transactions.md:12
+msgid "## 鉱石\n"
+"石炭を除く全ての鉱石[^1]、原石、精錬済みアイテム、ブロックと加工済みアイテム[^2]  \n"
+"[^1]: ネザークォーツや古代の残骸も含む  \n"
+"[^2]: 装備も含む"
+msgstr ""
+
+#: ../../items-banned-transactions.md:17
+msgid "## 希少\n"
+"- カメの卵\n"
+"- サンゴ (生死に関わらず)\n"
+"- 青氷\n"
+"- 泣く黒曜石\n"
+"- 海洋の心\n"
+"- コンジット\n"
+"- ネザースター\n"
+"- ビーコン\n"
+"- エンドクリスタル\n"
+"- ドラゴンブレス\n"
+"- 不死のトーテム\n"
+"- 頭蓋骨"
+msgstr ""
+
+#: ../../items-banned-transactions.md:31
+msgid "## 特殊\n"
+"- バンドル\n"
+"- 知識の本\n"
+"- 岩盤\n"
+"- スポーンエッグ\n"
+"- スポナー\n"
+"- クラフト不可能なポーション\n"
+"- クラフト不可能なエンチャント本\n"
+"- エンドゲートウェイ\n"
+"- コマンドブロック (全てのタイプとトロッコを含む)\n"
+"- ストラクチャーブロック\n"
+"- ストラクチャーヴォイド\n"
+"- バリアブロック"
+msgstr ""
+

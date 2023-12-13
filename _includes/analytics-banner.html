@@ -1,11 +1,21 @@
 <link rel="stylesheet" href="css/pages/privacy.css">
 <dialog>
-    <h1>プライバシー</h1>
-    <p>このサイトではよりよいエクスペリエンスの実現のためにGoogle AnalyticsとMicrosoft Clarityを使用します。詳細は<a href="privacy-policy">プライバシーポリシー</a>をご覧ください。</p>
-    <p>*プライバシーポリシーにあるアナリティクスツール以外の条件にも同意されない場合はこのダイアログ以外のフォームを送信しないでください。</p>
-    <menu>
-        <button id="agree">同意する</button>
-        <button id="disagree">同意しない</button>
-    </menu>
+    {% if page.lang == "ja" %}
+        <h1>アナリティクス</h1>
+        <p>このサイトではよりよいエクスペリエンスの実現のためにGoogle AnalyticsとMicrosoft Clarityを使用します。詳細は<a href="privacy-policy">プライバシーポリシー</a>をご覧ください。</p>
+        <p>*プライバシーポリシーにあるアナリティクスツール以外の条件にも同意されない場合はこのダイアログ以外のフォームを送信しないでください。</p>
+        <menu>
+            <button id="agree">同意する</button>
+            <button id="disagree">同意しない</button>
+        </menu>
+    {% elsif page.lang == "en" %}
+        <h1>Analytics</h1>
+        <p>This site uses Google Analytics and Microsoft Clarity to improve your experience. For more information, please see <a href="/en/privacy-policy">Privacy Policy</a>.</p>
+        <p>*If you do not agree to any terms other than the analytics tools in the privacy policy, please do not submit any form other than this dialog.</p>
+        <menu>
+            <button id="agree">Agree</button>
+            <button id="disagree">Disagree</button>
+        </menu>
+    {% endif %}
 </dialog>
 <script src="js/privacy.js"></script>

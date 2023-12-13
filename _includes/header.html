@@ -1,8 +1,16 @@
 <header>
-    <a href="/"><img src="/imgs/logos/header.svg" alt="" width="48" height="48"></a>
-    <nav>
-        <a href="/terms">利用規約</a>
-        <a href="/beginning">はじめに</a>
-        <a href="/companies">会社</a>
+        {% if page.lang == "ja" %}
+            <a href="/"><img src="/imgs/logos/header.svg" alt="" width="48" height="48"></a>
+            <nav>
+            <a href="/terms">利用規約</a>
+            <a href="/beginning">はじめに</a>
+            <a href="/companies">会社</a>
+        {% elsif page.lang == "en" %}
+            <a href="/en/"><img src="/imgs/logos/header.svg" alt="" width="48" height="48"></a>
+            <nav>
+            <a href="/en/terms">Terms of Service</a>
+            <a href="/en/beginning">Beginning</a>
+            <a href="/en/companies">Companies</a>
+        {% endif %}
     </nav>
 </header>

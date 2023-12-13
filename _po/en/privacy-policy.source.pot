@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-13 18:17+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../privacy-policy.md:1
+msgid "---\n"
+"layout: main\n"
+"title: プライバシーポリシー\n"
+"permalink: /privacy-policy\n"
+"lang: ja\n"
+"---"
+msgstr ""
+
+#: ../../privacy-policy.md:8
+msgid "このプライバシーポリシーはやきとりサーバーのホームページのすべてのコンテンツに適用されます。"
+msgstr ""
+
+#: ../../privacy-policy.md:10
+msgid "## トラッカー\n"
+"このサイトではよりよいエクスペリエンスの実現のためにGoogle AnalyticsとMicrosoft Clarityを使用してお客様の大まかな情報を取得します。  \n"
+"ただし、これらは個人を特定できるものではなく、ページを最初に読み込んだ時に表示されるバナーから*同意しない*を選択するか、ブラウザやアドオンのトラッカーブロック機能を利用することで読み込みを防ぐことができます。"
+msgstr ""
+
+#: ../../privacy-policy.md:14
+msgid "## 収集する情報\n"
+"私たちは以下のタイミングでお客様から情報を収集します。"
+msgstr ""
+
+#: ../../privacy-policy.md:17
+msgid "- やきとりサーバーのホームページを開いたとき (トラッカーの使用に同意した場合)\n"
+"- やきとりサーバーのホームページで操作を行ったとき (トラッカーの使用に同意した場合)\n"
+"- 私たちの管理するフォームが送信されたとき"
+msgstr ""
+
+#: ../../privacy-policy.md:21
+msgid "私たちは以下の情報をお客様から収集します。"
+msgstr ""
+
+#: ../../privacy-policy.md:23
+msgid "### やきとりサーバーのホームページを開いたとき\n"
+"- 国\n"
+"- OS\n"
+"- デバイス\n"
+"- ブラウザ"
+msgstr ""
+
+#: ../../privacy-policy.md:29
+msgid "これらはすべて大まかな値で、個人を特定することはできません。"
+msgstr ""
+
+#: ../../privacy-policy.md:31
+msgid "### やきとりサーバーのホームページで操作を行ったとき\n"
+"- カーソル位置\n"
+"- タップ位置\n"
+"- スクロール"
+msgstr ""
+
+#: ../../privacy-policy.md:36
+msgid "これらはすべて大まかな値で、個人を特定することはできません。重要な情報はGoogle AnalyticsやMicrosoft Clarityによって自動的にマスクされます。"
+msgstr ""
+
+#: ../../privacy-policy.md:38
+msgid "### 私たちの管理するフォームが送信されたとき\n"
+"- フォームに入力された内容\n"
+"- タイムスタンプ"
+msgstr ""
+
+#: ../../privacy-policy.md:42
+msgid "## 収集した情報の利用\n"
+"収集した上記の情報は次のために利用します。"
+msgstr ""
+
+#: ../../privacy-policy.md:45
+msgid "- エラーやバグ、不備の発見と修正\n"
+"- 構成の改善\n"
+"- 内容の更新"
+msgstr ""
+
+#: ../../privacy-policy.md:49
+msgid "## 情報の共有\n"
+"Google AnalyticsとMicrosoft Analyticsを利用しているため、Google LLCおよびMicrosoft Corporationと内容が共有されます。  \n"
+"私たちはそれ以外の個人や団体には情報を共有しません。ただし、事前で公開することが定められたフォームの回答などはその限りではありません。"
+msgstr ""
+
+#: ../../privacy-policy.md:53
+msgid "## コンタクト\n"
+"このサイトの管理者は[Ratnik/Ra7n1k](https://yakitori.tk/ra7n1k)です。ご不明の点があればご連絡ください。"
+msgstr ""
+

@@ -1,0 +1,74 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2023 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-13 14:59+0900\n"
+"PO-Revision-Date: 2023-12-13 14:59+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=; plural=;\n"
+
+#: ../../beginning.md:1
+msgid ""
+"---\n"
+"layout: main\n"
+"title: はじめに\n"
+"permalink: /beginning\n"
+"lang: ja\n"
+"---"
+msgstr ""
+"---\n"
+"layout: main\n"
+"title: Beginning\n"
+"permalink: /en/beginning\n"
+"lang: en\n"
+"---"
+
+#: ../../beginning.md:8
+msgid ""
+"## ログイン\n"
+"- Minecraft: Java Editionの正式なアカウントを所持\n"
+"- 安定した回線を利用可能\n"
+"上記の2つの条件を満たし[利用規約](/terms)に同意した場合は以下から接続できます。"
+msgstr ""
+"## Log In\n"
+"- Have a verified Minecraft: Java Edition account.\n"
+"- Stable internet connection available.\n"
+"If you meet the above two conditions and agree to the [Terms of Use](/terms), you can connect from below."
+
+#: ../../beginning.md:13
+msgid ""
+"| バージョン | アドレス | Mod |\n"
+"| --- | --- | --- |\n"
+"| 1.20.2 | play.yakitori.tk:8652 | 利用規約に適合するModを任意で導入できます |"
+msgstr ""
+"| Version | Address | Mods |\n"
+"| --- | --- | --- |\n"
+"| 1.20.2 | play.yakitori.tk:8652 | You can install any mod that meets the terms of use. |"
+
+#: ../../beginning.md:17
+msgid ""
+"## 生活\n"
+"初回ログイン時に石のツールとパン32個を自動で配布します。何らかの理由で配布されなかった場合はオーナーにお知らせください。  \n"
+"*申し訳ありませんが原則、死亡などの理由によって失った場合はもう一度差し上げることはできません。"
+msgstr ""
+"## Life\n"
+"A stone tool and 32 pieces of bread will be automatically distributed when you log in for the first time. If for some reason they are not distributed, please notify the owner.  \n"
+"*Sorry, but as a general rule, if you lose it due to death or other reasons, we cannot give it to you again."
+
+#: ../../beginning.md:21
+msgid ""
+"### 参照してください:\n"
+"- [利用規約](/terms)"
+msgstr ""
+"### Please Refer To:\n"
+"- [Terms of Use](/terms)"
