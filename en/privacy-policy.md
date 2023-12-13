@@ -11,7 +11,7 @@ This privacy policy applies to all content on the Yakitori Server homepage.
 This site uses Google Analytics and Microsoft Clarity to obtain general information about you for a better experience.
 However, these do not personally identify you, and you can prevent them from loading by selecting *Disagree* from the banner that appears when you first load the page, or by using the tracker blocking feature of your browser or add-on. .
 
-## Information to collect
+## Information to Collect
 We collect information from you at the following times.
 
 - When you open the Yakitori server homepage (if you agree to the use of trackers)
@@ -39,7 +39,7 @@ These are all approximate values and cannot be used to identify individuals. Sen
 - What was entered in the form
 - Time stamp
 
-## Use of collected information
+## Use of Collected Information
 The above information collected will be used for the following purposes.
 
 - Finding and fixing errors, bugs, and deficiencies
