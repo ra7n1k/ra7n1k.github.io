@@ -30,10 +30,10 @@ This applies to Minecraft servers.
 
 ### Items
 - Whenever harvesting or *slaughtering* occurs on public farms, plantations, or ranches, an equal or larger number of animals must be propagated or planted with seeds or saplings.
-- Collecting and mining resources must be done in the resource world (world name: *resources*) **(Do not do it in the living world)**
+- Collecting and mining resources must be done in the resource world (world name: *resources*) **(Do not do it in the living world)**.
 - Avoid creating client-intensive structures [^4] **as much as possible** around spawns in worlds that are accessible to all players.
-- Allows the use of X-Ray[^5] and mass destruction mods[^6], but some ores and some items other than Admin Shop[^7] ([items banned transactions](/en/items-banned-transactions))
-- Transactions are allowed up to 5 YSD above or below [items transaction price](/en/items-transaction-price)
+- Allows the use of X-Ray[^5] and mass destruction mods[^6], but some ores and some items other than Admin Shop[^7] ([items banned transactions](/en/items-banned-transactions)).
+- Transactions are allowed up to 5 YSD above or below [items transaction price](/en/items-transaction-price).
 
 ### Land and structures
 - The Nether (world name: *world_nether*) is intended only for gathering resources and is not obligated to protect architecture unless specifically indicated by the managers.
