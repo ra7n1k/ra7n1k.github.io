@@ -1,12 +1,12 @@
 ---
 layout: main
 title: はじめに
-permalink: /beginning
+permalink: /introduction
 lang: ja
 ---
 
 ## ログイン
-- Minecraft: Java Editionの正式なアカウントを所持
+- Minecraft: Java Editionの認証されたアカウントを所持
 - 安定した回線を利用可能
 上記の2つの条件を満たし[利用規約](/terms)に同意した場合は以下から接続できます。  
 

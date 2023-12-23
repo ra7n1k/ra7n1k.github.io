@@ -24,6 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6, summary {
     font-family: var(--h-font);
     font-weight: bold;
+    text-transform: capitalize;
 
     margin: 0;
 }
@@ -95,6 +96,7 @@ header nav {
 header nav a {
     color: #fff;
     font-size: 20px;
+    text-transform: capitalize;
 }
 
 /* main */
@@ -138,6 +140,7 @@ dt, dt * {
     font-family: var(--h-font);
     font-size: 20px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 dd {
     margin: 0;
@@ -264,4 +267,10 @@ footer {
 }
 small {
     font-size: 16px;
+}
+footer select {
+    padding: 4px 8px;
+    background-color: #f8f8f8;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
 }

@@ -5,39 +5,39 @@ permalink: /en/items-banned-transactions
 lang: en
 ---
 
-Here is a list of items that are prohibited from being bought or sold between players within the server. Please note, however, that this may be updated at any time.  
-Also, please trade items not listed here according to [Item Transaction Price](/items-transaction-price).
-*Items on this list may not be bartered or bartered. They must be given away for free or bought and sold in the Admin Shop.
+Here is a list of items that are prohibited from being bought or sold between players within the server. However, please note that this may be updated at any time.
+Also, please trade items not listed here according to [Items Transaction Price](/items-transaction-price).
+*Items on this list are also prohibited from bartering. Provide it for free or buy and sell it in the Admin Shop.
 
 ## Ores
-All ores except coal [^1], raw stones, refined items, blocks and processed items [^2]  
-[^1]: Includes nether quartz and ancient debris  
+All ores except coal [^1], rough stones, refined items, blocks and processed items [^2]
+[^1]: Includes nether quartz and ancient debris.
 [^2]: Including equipment
 
 ## Rare
-- Turtle eggs
+- turtle eggs
 - Coral (alive or dead)
-- Blue Ice
+- blue ice
 - Crying Obsidian
-- Heart of the Ocean
+- ocean heart
 - Conduit
 - Nether Star
 - Beacon
 - End Crystal
 - Dragon Breath
 - Totem of Immortality
-- Skull
+- skull
 
 ## Special
-- Bundle
-- Book of Knowledge
+- bundle
+- book of knowledge
 - Bedrock
 - Spawn Egg
-- Spawner
-- Uncraftable potion
-- Uncraftable enchantment book
-- End Gateway
-- Command block (includes all types and minecarts)
-- Structure Block
+- spawner
+- Uncraftable potions
+- Uncraftable Enchanted Book
+- End gateway
+- Command blocks (including all types and minecarts)
+- Structure block
 - Structure Void
-- Barrier Block
+- Barrier block
