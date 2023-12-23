@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Beginning
+title: Introduction
 permalink: /en/introduction
 lang: en
 ---
