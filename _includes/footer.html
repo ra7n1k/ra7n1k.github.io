@@ -3,17 +3,13 @@
         <small>&copy; 2023 やきとりサーバー</small> | 
         <small>ライセンス (ソフトウェア): <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0</a></small> | 
         <small><a href="/privacy-policy">プライバシーポリシー</a></small> |
-        <select name="" id="" onchange="window.location = `{{ site.baseurl }}${this.value}`">
-            <option value="ja" selected>🇯🇵 日本語</option>
-            <option value="en">🇺🇸🇬🇧... English</option>
-        </select>
     {% elsif page.lang == "en" %}
         <small>&copy; 2023 Yakitori Server</small> | 
         <small>License (Software): <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0</a></small> | 
         <small><a href="/en/privacy-policy">Privacy Policy</a></small> |
-        <select name="" id="" onchange="if (this.value === 'ja') {window.location = '{{ site.baseurl }}'} else {window.location = `{{ site.baseurl }}${this.value}`}">
-            <option value="en" selected>🇺🇸🇬🇧... English</option>
-            <option value="ja">🇯🇵 日本語</option>
-        </select>
     {% endif %}
+    <select name="" id="" onchange="if (this.value === 'ja') {window.location = '{{ site.url }}'} else {window.location = `{{ site.url }}/${this.value}`}">
+        <option value="en" {% if page.lang == "en" %} selected {% endif %}>🇺🇸🇬🇧... English</option>
+        <option value="ja" {% if page.lang == "ja" %} selected {% endif %}>🇯🇵 日本語</option>
+    </select>
 </footer>
