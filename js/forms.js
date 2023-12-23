@@ -14,5 +14,5 @@ form.addEventListener("submit", function(event) {
       }
     let button = document.querySelector("button[type='submit']");
     button.setAttribute("disabled", "disabled");
-    button.textContent = "Sent";
+    button.textContent = "Submitted";
 });
