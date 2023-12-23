@@ -1,7 +1,7 @@
 ---
 layout: main
 title: Companies
-permalink: /en/companies
+permalink: /en/companies/
 lang: en
 ---
 ## Summary
