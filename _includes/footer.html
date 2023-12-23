@@ -1,3 +1,9 @@
+<script>
+    const url = "{{ page.url }}";
+    const array = url.split("/");
+    const filter = array.filter(item => !["en", "fr", "es", ""].includes(item));
+    const relativeUrl  = "/" + filter.join("/");
+</script>
 <footer>
     {% if page.lang == "ja" %}
         <small>&copy; 2023 やきとりサーバー</small> | 
@@ -8,7 +14,7 @@
         <small>License (Software): <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0</a></small> | 
         <small><a href="/en/privacy-policy">Privacy Policy</a></small> |
     {% endif %}
-    <select name="" id="" onchange="if (this.value === 'ja') {window.location = '{{ site.url }}'} else {window.location = `{{ site.url }}/${this.value}`}">
+    <select name="" id="" onchange="if (this.value === 'ja') {window.location = `{{ site.url }}${relativeUrl}`} else {window.location = `{{ site.url }}/${this.value}${relativeUrl}`}">
         <option value="en" {% if page.lang == "en" %} selected {% endif %}>🇺🇸🇬🇧... English</option>
         <option value="ja" {% if page.lang == "ja" %} selected {% endif %}>🇯🇵 日本語</option>
     </select>
