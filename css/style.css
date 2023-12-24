@@ -264,6 +264,9 @@ footer {
     background-color: #f0f0f0;
     border-top: 1px solid #c0c0c0;
 }
+footer > * {
+    padding: 16px 0;
+}
 small {
     font-size: 16px;
 }
