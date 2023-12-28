@@ -32,6 +32,9 @@
 dd {
     text-transform: capitalize;
 }
+#members dt {
+    text-transform: none;
+}
 #members > div {
     display: flex;
     flex-direction: row;
