@@ -29,6 +29,9 @@
 #cover section h2 {
     font-weight: normal;
 }
+dd {
+    text-transform: capitalize;
+}
 #members > div {
     display: flex;
     flex-direction: row;
