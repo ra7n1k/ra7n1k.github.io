@@ -140,6 +140,8 @@ dt, dt *, label {
     font-family: var(--h-font);
     font-size: 20px;
     font-weight: bold;
+}
+dt, dt *, label, #members dd {
     text-transform: capitalize;
 }
 dd {
