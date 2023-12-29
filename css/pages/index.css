@@ -32,7 +32,7 @@
 dd {
     text-transform: capitalize;
 }
-#members dt {
+#members dt * {
     text-transform: none;
 }
 #members > div {
