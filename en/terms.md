@@ -42,17 +42,16 @@ This applies to Minecraft servers.
 - The approximate land area available for one building is determined by the distance from the spawn point.
 (If you exceed the guidelines, please submit your plan to the *support/general-building-support* channel on the [Discord](https://discord.gg/EWfrwBFspF) server)
 
-#### 128 blocks or less from spawn point
-Ground spacing is at least 1 block, avoid contact, maximum land area is 21 x 29 blocks
-
-#### 512 blocks or less from spawn point
-Ground spacing is 3 blocks or more, avoid contact, maximum land area is 29 x 37 blocks
-
-#### 1024 blocks or less from spawn point
-Ground spacing is 3 blocks or more, avoid contact, maximum land area is 37 x 45 blocks
-
-#### 1025 blocks or more from spawn point
-Avoid contact, no restrictions on land area
+<section class="list-box">
+    <h4>128 blocks or less from spawn point</h4>
+    <p>Ground spacing is at least 1 block, avoid contact, maximum land area is 21 x 29 blocks</p>
+    <h4>512 blocks or less from spawn point</h4>
+    <p>Ground spacing is 3 blocks or more, avoid contact, maximum land area is 29 x 37 blocks</p>
+    <h4>1024 blocks or less from spawn point</h4>
+    <p>Ground spacing is 3 blocks or more, avoid contact, maximum land area is 37 x 45 blocks</p>
+    <h4>1025 blocks or more from spawn point</h4>
+    <p>Avoid contact, no restrictions on land area</p>
+</section>
 
 If the moderator determines that it is interfering with the use of others, it may be braked after notification.
 
