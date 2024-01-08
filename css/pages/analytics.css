@@ -10,6 +10,7 @@ dialog[open] {
     width: fit-content;
     max-width: 1440px;
     height: fit-content;
+    margin: auto;
     border: none;
     border-radius: 8px;
     box-shadow: 0 0 8px #00000080;
