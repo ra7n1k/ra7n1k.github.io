@@ -145,9 +145,6 @@ dt, dt *, label {
 dt, dt *, label {
     text-transform: capitalize;
 }
-dd {
-    margin: 0;
-}
 summary {
     display: flex;
     flex-direction: row;

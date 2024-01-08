@@ -29,9 +29,6 @@
 #cover section h2 {
     font-weight: normal;
 }
-dd {
-    text-transform: capitalize;
-}
 #members dt * {
     text-transform: none;
 }
