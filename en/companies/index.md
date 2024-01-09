@@ -2,6 +2,7 @@
 layout: main
 title: Companies
 permalink: /en/companies/
+canonical_url: https://www.yakitori.tk/en/companies/
 lang: en
 ---
 ## Summary

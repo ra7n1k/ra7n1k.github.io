@@ -2,6 +2,7 @@
 layout: main
 title: プライバシーポリシー
 permalink: /privacy-policy
+canonical_url: https://www.yakitori.tk/privacy-policy
 lang: ja
 ---
 

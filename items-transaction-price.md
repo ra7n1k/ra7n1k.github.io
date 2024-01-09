@@ -2,6 +2,7 @@
 layout: main
 title: アイテム取引価格
 permalink: /items-transaction-price
+canonical_url: https://www.yakitori.tk/items-transaction-price
 lang: ja
 ---
 

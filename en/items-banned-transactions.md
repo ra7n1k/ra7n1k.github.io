@@ -2,6 +2,7 @@
 layout: main
 title: Items Banned Transactions
 permalink: /en/items-banned-transactions
+canonical_url: https://www.yakitori.tk/en/items-banned-transactions
 lang: en
 ---
 

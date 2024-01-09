@@ -2,6 +2,7 @@
 layout: main
 title: Introduction
 permalink: /en/introduction
+canonical_url: https://www.yakitori.tk/en/introduction
 lang: en
 ---
 
