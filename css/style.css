@@ -7,8 +7,12 @@
     overflow-wrap:  break-word;
 }
 :root {
-    --h-font: 'Noto Sans JP', 'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
-    --p-font: 'Noto Serif JP', 'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
+    --h-font:
+    /* 'Noto Sans JP', */
+    'Segoe UI', Tahoma, Geneva, Verdana, 游ゴシック, 'Yu Gothic', YuGothic, 'Hiragino Gothic ProN', 'Hiragino Gothic Pro', HGSゴシックE, sans-serif;
+    --p-font:
+    /* 'Noto Serif JP', */
+    'Times New Roman', Times, 游明朝, 'Yu Mincho', YuMincho, 'Hiragino Mincho ProN', 'Hiragino Mincho Pro', HGS明朝E, serif;
     --c-font: Consolas, Courier New, Courier, monospace, SFMono-Regular, Menlo, Monaco;
     --a-color: #2070e0;
 }
@@ -72,6 +76,9 @@ img {
 }
 strong {
     font-family: var(--h-font);
+}
+a.a {
+    vertical-align: text-top;
 }
 
 /* header */
@@ -288,6 +295,8 @@ footer {
     border-top: 1px solid #c0c0c0;
 }
 footer * {
+    font-family: var(--h-font);
+
     text-transform: capitalize;
     font-size: 16px;
 }

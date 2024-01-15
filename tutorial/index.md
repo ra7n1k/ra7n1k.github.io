@@ -1,8 +1,8 @@
 ---
 layout: main
-title: はじめに
-permalink: /introduction
-canonical_url: https://www.yakitori.tk/introduction
+title: チュートリアル
+permalink: /tutorial
+canonical_url: https://www.yakitori.tk/tutorial
 lang: ja
 ---
 

@@ -22,8 +22,8 @@
 # email: your-email@example.com
 # description: >- # this means to ignore newlines until "baseurl:"
 # これは無料のMinecraft: Java Editionサーバーであるやきとりサーバーのホームページです。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://www.yakitori.tk/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Ra7n1k
 github_username:  ra7n1k
 
@@ -38,7 +38,6 @@ plugins:
 kramdown:
   input: Kramdown
 
-baseurl: /
 
 languages: [ja, en]
 default_lang: ja
