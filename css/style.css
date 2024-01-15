@@ -149,7 +149,7 @@ dt, dt *, label {
     font-size: 20px;
     font-weight: bold;
 }
-dt, dt *, label {
+dt, dt *, th, label {
     text-transform: capitalize;
 }
 summary {
@@ -192,7 +192,7 @@ hr {
 table {
     border-collapse: collapse;
 }
-tr * {
+tr > * {
     padding: 8px 32px;
     border-left: 1px solid #c0c0c0;
     border-right: 1px solid #c0c0c0;
