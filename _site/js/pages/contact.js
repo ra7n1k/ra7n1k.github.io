@@ -10,6 +10,10 @@ form.addEventListener("submit", function(event) {
     button.textContent = "送信済み";
 });
 
-function onSubmit() {
+function enableButton() {
   button.classList.remove("disabled");
+}
+
+function disableButton() {
+  button.classList.add("disabled");
 }

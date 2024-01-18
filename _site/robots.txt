@@ -1,5 +1,1 @@
-User-agent: *
-
-Disallow: /404
-Disallow: /404.html
-Disallow: /addons/*/files
+Sitemap: http://localhost:4000/sitemap.xml

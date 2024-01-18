@@ -1,7 +1,15 @@
 <header>
-    <a id="logo" href="https://www.yakitori.tk/ra7n1k/" title="ホーム"><img src="https://www.yakitori.tk/ra7n1k/imgs/logos/header.svg" alt="" width="72" height="24"></a>
-    <nav>
-        <a href="https://www.yakitori.tk/ra7n1k/products">製品</a>
-        <a href="https://www.yakitori.tk/ra7n1k/contact">コンタクト</a>
-    </nav>
+        {% if page.lang == "ja" %}
+        <a id="logo" href="/"><img src="/imgs/logos/header.svg" alt="" width="72" height="24"></a>
+        <nav>
+            <a href="/products">製品</a>
+            <a href="/contact">コンタクト</a>
+        </nav>
+    {% elsif page.lang == "en" %}
+        <a id="logo" href="/en/"><img src="/imgs/logos/header.svg" alt="" width="72" height="24"></a>
+        <nav>
+            <a href="/en/products">Products</a>
+            <a href="/en/contact">Contact</a>
+        </nav>
+    {% endif %}
 </header>
