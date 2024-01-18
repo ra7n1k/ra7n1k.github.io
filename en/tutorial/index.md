@@ -1,8 +1,8 @@
 ---
 layout: main
 title: Tutorial
-permalink: /en/tutorial
-canonical_url: https://www.yakitori.tk/en/tutorial
+permalink: /en/tutorial/
+canonical_url: https://www.yakitori.tk/en/tutorial/
 lang: en
 ---
 

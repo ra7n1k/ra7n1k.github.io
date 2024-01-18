@@ -14,6 +14,6 @@ Indicates the base price of the item's transaction.
 - Polished and honed blocks cost the same as regular blocks unless indicated.
 - For items that can be made by combining the same items, please calculate the price by multiplying or dividing by the number of items based on the price of the item shown here.
 
-[^1]: exclude negative values
-
 {% include items-transaction-price.md %}
+
+[^1]: exclude negative values
