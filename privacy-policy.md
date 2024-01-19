@@ -52,4 +52,4 @@ Google AnalyticsとMicrosoft Analyticsを利用しているため、Google LLC�
 私たちはそれ以外の個人や団体には情報を共有しません。ただし、事前で公開することが定められたフォームの回答などはその限りではありません。
 
 ## コンタクト
-このサイトの管理者は[Ratnik/Ra7n1k](https://yakitori.tk/ra7n1k)です。ご不明の点があればご連絡ください。
+このサイトの管理者は[Ratnik/Ra7n1k](https://ra7n1k.yakitori.tk/)です。ご不明の点があればご連絡ください。
