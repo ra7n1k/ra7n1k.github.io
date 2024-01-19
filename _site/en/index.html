@@ -40,7 +40,7 @@
             <section>
                 <section id="copy">
     <section>
-        <h1>Yakitori Server<wbr>Owner, <br>Web Developer</h1>
+        <h1>Yakitori Server <wbr>Owner, <br>Web Developer</h1>
         <p>Ratnik/Ra7n1k is the owner of <a href="https://www.yakitori.tk/">Yakitori Server</a>, a Minecraft: Java Edition server, and the creator of several websites, web applications, and add-ons.</p>
     </section>
     <section>
@@ -94,5 +94,22 @@
 
             </section>
         </main>
+        <script>
+    const url = "/en/";
+    const array = url.split("/");
+    const filter = array.filter(item => !["en", "fr", "es", ""].includes(item));
+    const relativeUrl  = "/" + filter.join("/");
+</script>
+<footer>
+    
+        <small>&copy; 2024 Ra7n1k</small> | 
+        <small><a href="/en/privacy-policy">Privacy policy</a></small> |
+    
+    <select name="" id="" onchange="if (this.value === 'ja') {window.location = `http://localhost:4000${relativeUrl}`} else {window.location = `http://localhost:4000/${this.value}${relativeUrl}`}">
+        <option value="en"  selected >🇺🇸🇬🇧... English</option>
+        <option value="ja" >🇯🇵 日本語</option>
+    </select>
+</footer>
+
     </body>
 </html>

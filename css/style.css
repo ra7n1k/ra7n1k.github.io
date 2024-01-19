@@ -280,3 +280,31 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 iframe[name="hidden"] {
     display: none;
 }
+
+/* footer */
+footer {
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    min-height: 64px;
+    padding: 16px 0;
+    background-color: #f0f0f0;
+    border-top: 1px solid #c0c0c0;
+}
+footer * {
+    font-family: var(--h-font);
+
+    text-transform: capitalize;
+    font-size: 16px;
+}
+footer select {
+    padding: 4px 8px;
+    background-color: #f8f8f8;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
