@@ -23,7 +23,7 @@ title: Ratnik
 description: >- # this means to ignore newlines until "baseurl:"
   やきとりサーバーのオーナーでWebアプリ制作者でもあるRatnik/Ra7n1kのホームページです。
 baseurl: / # the subpath of your site, e.g. /blog
-url: "https://www.yakitori.tk/ra7n1k" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ra7n1k.yakitori.tk/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Ra7n1k
 github_username:  ra7n1k
 
