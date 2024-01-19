@@ -19,6 +19,23 @@
 | *red_sandstone* | 1.4 |
 | *gravel* | 0.1 |
 | *glass* | 0.3 |
+| *obsidian* | 6 |
+| *bread* | 1 |
+| *carrot* | 0.2 |
+| *potato* | 0.2 |
+| *poisonous_potato* | 0.01 |
+| *pumpkin* | 1 |
+| *melon* | 1.5 |
+| *apple* | 0.8 |
+| *chicken* | 0.6 |
+| *porkchop* | 0.8 |
+| *beef* | 0.8 |
+| *mutton* | 0.7 |
+| *rabbit* | 0.6 |
+| *salmon* | 0.8 |
+| *cod* | 0.8 |
+| *cookie* | 1.5 |
+| *cake* | 6 |
 | *charcoal* | 0.6 |
 | *coal* | 0.8 |
 | *raw_iron* | 1 |
@@ -37,4 +54,7 @@
 | *grass*, flowers | 0.8 |
 | mushrooms | 1 |
 | **_wool* | 0.8 |
+| *paper* | 0.6 |
+| *leather* | 1 |
+| *ender_pearl* | 5 |
 | *netherite_upgrade_smithing_template* | 200 |
