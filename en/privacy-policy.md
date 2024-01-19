@@ -52,4 +52,4 @@ We use Google Analytics and Microsoft Analytics, so your content will be shared 
 We do not share information with other individuals or organizations. However, this does not apply to responses to forms that are set to be made public in advance.
 
 ## Contact
-The administrator of this site is [Ratnik/Ra7n1k](https://ra7n1k.yakitori.tk/). Please contact us if you have any questions.
+The administrator of this site is [Ratnik/Ra7n1k](https://ra7n1k.yakitori.tk/en/). Please contact us if you have any questions.
