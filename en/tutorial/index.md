@@ -15,7 +15,7 @@ If you meet the above two conditions and agree to the [Terms of Use](/terms), yo
 | --- | --- | --- |
 | 1.20.2 | play.yakitori.tk:8652 | You can install any mod that meets the terms of use. |
 
-## Life
+## At First
 Stone tools and 32 pieces of bread will be automatically distributed when you log in for the first time. If for some reason it was not distributed, please let the owner know.
 *Sorry, but as a general rule, if you lose your gift due to death or other reasons, we cannot give it to you again.
 
