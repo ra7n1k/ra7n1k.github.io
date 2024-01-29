@@ -23,7 +23,7 @@
 # description: >- # this means to ignore newlines until "baseurl:"
 # これは無料のMinecraft: Java Editionサーバーであるやきとりサーバーのホームページです。
 baseurl: / # the subpath of your site, e.g. /blog
-url: https://www.yakitori.tk/ # the base hostname & protocol for your site, e.g. http://example.com
+url: https://www.yakitori.tk # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Ra7n1k
 github_username:  ra7n1k
 
