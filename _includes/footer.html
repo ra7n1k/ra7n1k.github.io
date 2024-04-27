@@ -7,11 +7,9 @@
 <footer>
     {% if page.lang == "ja" %}
         <small>&copy; 2024 やきとりサーバー</small> | 
-        <small>ライセンス (ソフトウェア): <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0</a></small> | 
         <small><a href="/privacy-policy">プライバシーポリシー</a></small> |
     {% elsif page.lang == "en" %}
         <small>&copy; 2024 Yakitori Server</small> | 
-        <small>License (software): <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPL-3.0</a></small> | 
         <small><a href="/en/privacy-policy">Privacy policy</a></small> |
     {% endif %}
     <select name="" id="" onchange="if (this.value === 'ja') {window.location = `{{ site.url }}/${relativeUrl}`} else {window.location = `{{ site.url }}/${this.value}/${relativeUrl}`}">
